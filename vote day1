@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a;
+cout<<"ENTER THE AGE => ";
+cin>>a;
+if(a>=18)
+cout<<"\nperson is eligible for voting ";
+if(a<18)
+cout<<(18-a)<<" years is left for voting => ";
+}
