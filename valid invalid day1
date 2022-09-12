@@ -1,0 +1,15 @@
+include<iostream>
+#include<string.h>
+using namespace std;
+int main()
+{
+string a,b;
+cout<<"ENTER THE USER NAME => ";
+cin>>a;
+cout<<"\nREENTER THE USER NAME => ";
+cin>>b;
+if(a==b)
+cout<<"VALID USER NAME";
+else
+cout<<"INVALID USER NAME";
+}
